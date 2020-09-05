@@ -1,9 +1,6 @@
 .Populares{
     border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
-.Populares h2{
-    
-}
 .populares-contenedor{
     display: grid;
     grid-template-columns: repeat(3,300px);
