@@ -1,0 +1,54 @@
+.Populares{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+.Populares h2{
+    
+}
+.populares-contenedor{
+    display: grid;
+    grid-template-columns: repeat(3,300px);
+    grid-template-rows: 380px 477px;
+    grid-template-areas: 'uno uno uno'
+                         'dos tres cuatro';
+    grid-row-gap: 33px;
+    grid-column-gap: 20px;
+}
+.populares-contenedor-caja{
+    width: 100%;
+    height: 100%;
+}
+.populares-contenedor-caja .All_Article-Contenido{
+    width: 100%;
+    height: 277px;
+    padding-top: 13px;
+}
+.populares-contenedor-caja .All_Article-img{
+    width: 100%;
+    height: 200px;
+}
+.populares-contenedor-principal {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+.populares-contenedor-principal .All_Article-Contenido{
+    width: 380px;
+    height: 100%;
+}
+.populares-contenedor-principal .All_Article-img{
+    width: 540px;
+    height: 100%;
+}
+
+.populares-contenedor div:nth-child(1){
+    grid-area: uno;
+}
+.populares-contenedor div:nth-child(2){
+    grid-area: dos;
+}
+.populares-contenedor div:nth-child(3){
+    grid-area: tres;
+}
+.populares-contenedor div:nth-child(4){
+    grid-area: cuatro;
+}
